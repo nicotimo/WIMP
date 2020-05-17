@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="pua logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-94.285714"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#241c1c;fill-rule:evenodd;stroke-width:0.29056147"
+       d="m 157.2381,121.72496 c -8.12096,29.04527 -30.49427,78.22908 -51.75999,80.02232 C 83.378848,203.61082 61.29278,150.62541 51.64187,122.1088 41.221871,91.319662 76.56618,81.685142 105.65111,82.313662 c 22.16649,0.479014 51.2054,7.167074 51.58699,39.411298 h -52.79868 z"
+       id="path815"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssccc" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.26458332"
+       id="path818"
+       sodipodi:type="arc"
+       sodipodi:cx="104.32143"
+       sodipodi:cy="174.53571"
+       sodipodi:rx="8.3154764"
+       sodipodi:ry="7.5595236"
+       sodipodi:start="0"
+       sodipodi:end="6.2700604"
+       d="m 112.6369,174.53571 a 8.3154764,7.5595236 0 0 1 -8.28819,7.55948 8.3154764,7.5595236 0 0 1 -8.342581,-7.50988 8.3154764,7.5595236 0 0 1 8.233441,-7.60876 8.3154764,7.5595236 0 0 1 8.39662,7.45994 l -8.31476,0.0992 z" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+       d="m 103.56549,96.672614 16.63094,-3.02381 c 15.62575,8.074816 39.86375,14.977486 20.6739,43.267816 -3.65144,5.38308 -13.97531,10.81194 -20.6739,17.96433 l -16.63094,2.26786 c 31.80394,-33.36458 36.7584,-55.43007 0,-60.476196 z"
+       id="rect820"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccc" />
+    <path
+       sodipodi:nodetypes="ccsccc"
+       inkscape:connector-curvature="0"
+       id="path837"
+       d="m 103.56549,96.672614 -16.304288,-3.02381 c -15.31884,8.074816 -37.598572,14.221536 -18.785635,42.511866 3.579722,5.38308 12.218614,11.56789 18.785635,18.72028 l 16.304288,2.26786 c -24.817876,-36.47392 -35.132804,-53.58663 0,-60.476196 z"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.26197207" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Capa 2" />
+</svg>

@@ -1,0 +1,67 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://sprite guitarristfrente.png" type="Texture" id=1]
+[ext_resource path="res://KinematicBody2D.gd" type="Script" id=2]
+[ext_resource path="res://sprite guitarrist 4.png" type="Texture" id=4]
+[ext_resource path="res://sprite guitarrist 6.png" type="Texture" id=5]
+[ext_resource path="res://sprite guitarrist 3.png" type="Texture" id=6]
+[ext_resource path="res://sprite guitarrist 5.png" type="Texture" id=7]
+[ext_resource path="res://sprite guitarrist 3jump.png" type="Texture" id=8]
+[ext_resource path="res://sprite guitarrist 4jump.png" type="Texture" id=9]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "stop",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "walk",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 8 ) ],
+"loop": true,
+"name": "Jump",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ) ],
+"loop": true,
+"name": "fall",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 44.142
+height = 168.142
+
+[node name="player" type="Node"]
+
+[node name="player" type="KinematicBody2D" parent="."]
+position = Vector2( 8.42828, 154.639 )
+scale = Vector2( 0.705158, 0.705158 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="player"]
+position = Vector2( 222.563, 356.066 )
+scale = Vector2( 0.518042, 0.518042 )
+frames = SubResource( 1 )
+animation = "fall"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
+position = Vector2( 210.972, 374.323 )
+shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2( 215.868, 321.547 )
+scale = Vector2( 5.31109, 3.49589 )
+current = true
+drag_margin_left = 1.0
+drag_margin_top = 1.0
+drag_margin_right = 1.0
+drag_margin_bottom = 1.0
+editor_draw_drag_margin = true
